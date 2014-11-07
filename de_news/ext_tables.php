@@ -39,3 +39,5 @@ $GLOBALS['TCA']['tx_denews_domain_model_article'] = array(
 		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_denews_domain_model_article.gif'
 	),
 );
+
+//lorem
