@@ -40,4 +40,3 @@ $GLOBALS['TCA']['tx_denews_domain_model_article'] = array(
 	),
 );
 
-//lorem
