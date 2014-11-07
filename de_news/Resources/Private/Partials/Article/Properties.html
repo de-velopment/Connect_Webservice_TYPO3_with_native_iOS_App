@@ -1,0 +1,35 @@
+
+<table class="tx-de-news" >
+	<tr>
+		<td>
+			<f:translate key="tx_denews_domain_model_article.title" />
+		</td>
+		<td>
+		{article.title}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_denews_domain_model_article.date" />
+		</td>
+		<td>
+		{article.date -> f:format.date()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_denews_domain_model_article.text" />
+		</td>
+		<td>
+		{article.text}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_denews_domain_model_article.image" />
+		</td>
+		<td>
+				<f:image src="{article.image.originalResource.publicUrl}" width="200"/>
+		</td>
+	</tr>
+</table>
