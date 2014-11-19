@@ -1,0 +1,17 @@
+
+
+[
+	<f:for each="{jsonData}" as="view" iteration="count">
+		{"title": " <f:format.html parseFuncTSPath="" >{view.title} </f:format.html>",
+			"date" : " <f:format.html parseFuncTSPath="" ><f:format.date format="d.m.Y">{view.date}</f:format.date> </f:format.html>",
+				"text" : " <f:format.html parseFuncTSPath="" > {view.text} </f:format.html>",
+					"image" : "<f:format.html parseFuncTSPath="" >{url}{view.image.originalResource.publicUrl}</f:format.html>"
+		
+		} <f:if condition="{count.isLast} == 1"><f:else>,</f:else></f:if>
+		
+		
+	</f:for> 
+
+]		
+
+

@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A824891A1B723C00FC2AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A824881A1B723C00FC2AFF /* main.m */; };
+		43A8248C1A1B723C00FC2AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8248B1A1B723C00FC2AFF /* AppDelegate.m */; };
+		43A824921A1B723C00FC2AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A824901A1B723C00FC2AFF /* Main.storyboard */; };
+		43A824941A1B723C00FC2AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A824931A1B723C00FC2AFF /* Images.xcassets */; };
+		43A824971A1B723C00FC2AFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A824951A1B723C00FC2AFF /* LaunchScreen.xib */; };
+		43A824A31A1B723C00FC2AFF /* TYPO3_Extbase_NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A824A21A1B723C00FC2AFF /* TYPO3_Extbase_NewsTests.m */; };
+		43A824AE1A1B726C00FC2AFF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A824AD1A1B726C00FC2AFF /* TableViewController.m */; };
+		43CAB51C1A1B907200D9016D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CAB51B1A1B907200D9016D /* DetailViewController.m */; };
+		43CAB8421A1D1E8C00D9016D /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CAB8411A1D1E8C00D9016D /* placeholder.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43A8249D1A1B723C00FC2AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43A8247B1A1B723C00FC2AFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A824821A1B723C00FC2AFF;
+			remoteInfo = "TYPO3 Extbase News";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43A824831A1B723C00FC2AFF /* TYPO3 Extbase News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TYPO3 Extbase News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A824871A1B723C00FC2AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A824881A1B723C00FC2AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43A8248A1A1B723C00FC2AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43A8248B1A1B723C00FC2AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43A824911A1B723C00FC2AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43A824931A1B723C00FC2AFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43A824961A1B723C00FC2AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43A8249C1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TYPO3 Extbase NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A824A11A1B723C00FC2AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A824A21A1B723C00FC2AFF /* TYPO3_Extbase_NewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPO3_Extbase_NewsTests.m; sourceTree = "<group>"; };
+		43A824AC1A1B726C00FC2AFF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		43A824AD1A1B726C00FC2AFF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		43CAB51A1A1B907200D9016D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		43CAB51B1A1B907200D9016D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		43CAB8411A1D1E8C00D9016D /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A824801A1B723C00FC2AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A824991A1B723C00FC2AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A8247A1A1B723C00FC2AFF = {
+			isa = PBXGroup;
+			children = (
+				43A824851A1B723C00FC2AFF /* TYPO3 Extbase News */,
+				43A8249F1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests */,
+				43A824841A1B723C00FC2AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43A824841A1B723C00FC2AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A824831A1B723C00FC2AFF /* TYPO3 Extbase News.app */,
+				43A8249C1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A824851A1B723C00FC2AFF /* TYPO3 Extbase News */ = {
+			isa = PBXGroup;
+			children = (
+				43A8248A1A1B723C00FC2AFF /* AppDelegate.h */,
+				43A8248B1A1B723C00FC2AFF /* AppDelegate.m */,
+				43A824AC1A1B726C00FC2AFF /* TableViewController.h */,
+				43A824AD1A1B726C00FC2AFF /* TableViewController.m */,
+				43CAB8411A1D1E8C00D9016D /* placeholder.png */,
+				43CAB51A1A1B907200D9016D /* DetailViewController.h */,
+				43CAB51B1A1B907200D9016D /* DetailViewController.m */,
+				43A824901A1B723C00FC2AFF /* Main.storyboard */,
+				43A824931A1B723C00FC2AFF /* Images.xcassets */,
+				43A824951A1B723C00FC2AFF /* LaunchScreen.xib */,
+				43A824861A1B723C00FC2AFF /* Supporting Files */,
+			);
+			path = "TYPO3 Extbase News";
+			sourceTree = "<group>";
+		};
+		43A824861A1B723C00FC2AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A824871A1B723C00FC2AFF /* Info.plist */,
+				43A824881A1B723C00FC2AFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A8249F1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				43A824A21A1B723C00FC2AFF /* TYPO3_Extbase_NewsTests.m */,
+				43A824A01A1B723C00FC2AFF /* Supporting Files */,
+			);
+			path = "TYPO3 Extbase NewsTests";
+			sourceTree = "<group>";
+		};
+		43A824A01A1B723C00FC2AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A824A11A1B723C00FC2AFF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A824821A1B723C00FC2AFF /* TYPO3 Extbase News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A824A61A1B723C00FC2AFF /* Build configuration list for PBXNativeTarget "TYPO3 Extbase News" */;
+			buildPhases = (
+				43A8247F1A1B723C00FC2AFF /* Sources */,
+				43A824801A1B723C00FC2AFF /* Frameworks */,
+				43A824811A1B723C00FC2AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TYPO3 Extbase News";
+			productName = "TYPO3 Extbase News";
+			productReference = 43A824831A1B723C00FC2AFF /* TYPO3 Extbase News.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43A8249B1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A824A91A1B723C00FC2AFF /* Build configuration list for PBXNativeTarget "TYPO3 Extbase NewsTests" */;
+			buildPhases = (
+				43A824981A1B723C00FC2AFF /* Sources */,
+				43A824991A1B723C00FC2AFF /* Frameworks */,
+				43A8249A1A1B723C00FC2AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43A8249E1A1B723C00FC2AFF /* PBXTargetDependency */,
+			);
+			name = "TYPO3 Extbase NewsTests";
+			productName = "TYPO3 Extbase NewsTests";
+			productReference = 43A8249C1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A8247B1A1B723C00FC2AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Development;
+				TargetAttributes = {
+					43A824821A1B723C00FC2AFF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					43A8249B1A1B723C00FC2AFF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 43A824821A1B723C00FC2AFF;
+					};
+				};
+			};
+			buildConfigurationList = 43A8247E1A1B723C00FC2AFF /* Build configuration list for PBXProject "TYPO3 Extbase News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43A8247A1A1B723C00FC2AFF;
+			productRefGroup = 43A824841A1B723C00FC2AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A824821A1B723C00FC2AFF /* TYPO3 Extbase News */,
+				43A8249B1A1B723C00FC2AFF /* TYPO3 Extbase NewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A824811A1B723C00FC2AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A824921A1B723C00FC2AFF /* Main.storyboard in Resources */,
+				43CAB8421A1D1E8C00D9016D /* placeholder.png in Resources */,
+				43A824971A1B723C00FC2AFF /* LaunchScreen.xib in Resources */,
+				43A824941A1B723C00FC2AFF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A8249A1A1B723C00FC2AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A8247F1A1B723C00FC2AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A8248C1A1B723C00FC2AFF /* AppDelegate.m in Sources */,
+				43A824AE1A1B726C00FC2AFF /* TableViewController.m in Sources */,
+				43A824891A1B723C00FC2AFF /* main.m in Sources */,
+				43CAB51C1A1B907200D9016D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A824981A1B723C00FC2AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A824A31A1B723C00FC2AFF /* TYPO3_Extbase_NewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43A8249E1A1B723C00FC2AFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43A824821A1B723C00FC2AFF /* TYPO3 Extbase News */;
+			targetProxy = 43A8249D1A1B723C00FC2AFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43A824901A1B723C00FC2AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A824911A1B723C00FC2AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43A824951A1B723C00FC2AFF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A824961A1B723C00FC2AFF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A824A41A1B723C00FC2AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43A824A51A1B723C00FC2AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A824A71A1B723C00FC2AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "TYPO3 Extbase News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43A824A81A1B723C00FC2AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "TYPO3 Extbase News/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(SOURCE_ROOT)/SDWebImage";
+			};
+			name = Release;
+		};
+		43A824AA1A1B723C00FC2AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TYPO3 Extbase NewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYPO3 Extbase News.app/TYPO3 Extbase News";
+			};
+			name = Debug;
+		};
+		43A824AB1A1B723C00FC2AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TYPO3 Extbase NewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYPO3 Extbase News.app/TYPO3 Extbase News";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A8247E1A1B723C00FC2AFF /* Build configuration list for PBXProject "TYPO3 Extbase News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A824A41A1B723C00FC2AFF /* Debug */,
+				43A824A51A1B723C00FC2AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A824A61A1B723C00FC2AFF /* Build configuration list for PBXNativeTarget "TYPO3 Extbase News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A824A71A1B723C00FC2AFF /* Debug */,
+				43A824A81A1B723C00FC2AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A824A91A1B723C00FC2AFF /* Build configuration list for PBXNativeTarget "TYPO3 Extbase NewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A824AA1A1B723C00FC2AFF /* Debug */,
+				43A824AB1A1B723C00FC2AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A8247B1A1B723C00FC2AFF /* Project object */;
+}
