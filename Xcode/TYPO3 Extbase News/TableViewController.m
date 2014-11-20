@@ -9,7 +9,7 @@
 #import "TableViewController.h"
 #import "DetailViewController.h"
 
-//Important 
+//Important
 //Insert here your json File URL "www.yourdomain.com/pathToJson"
 #define jsonUrl @"http://"
 
