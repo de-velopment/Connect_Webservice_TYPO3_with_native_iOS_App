@@ -3,6 +3,15 @@
 
 ## Shows News as HTML output or directly via JSON in an iOS app.
 
+<img src="https://github.com/de-velopment/Connect_Webservice_TYPO3_with_native_iOS_App/blob/master/TYPO3_Extbase_iOS_1.png" width="355px">
+
+*iOS Tableview Controller*
+
+<img src="https://github.com/de-velopment/Connect_Webservice_TYPO3_with_native_iOS_App/blob/master/TYPO3_Extbase_ios_2.png" width="355px">
+
+*iOS Detailview Controller*
+
+
 ### 1.Step
 
 Install TYPO3 Extension de_news in your TYPO3 package
